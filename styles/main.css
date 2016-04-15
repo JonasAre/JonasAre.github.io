@@ -25,11 +25,27 @@ ul li a:active{
   background: green;
 }
 body{
-  background-color: #aaff80;
   text-align: center;
-
+  background-color: #aaff80;
+  padding-top: 80px;
+  padding-bottom: 40px;
 }
-#about{
+
+#page1{
+  width: 80%;
+  height: 500px;
+  background-color: #66ffff;
+  margin-left: auto;
+  margin-right: auto;
+}
+#page2{
+  width: 80%;
+  height: 500px;
+  background-color: #66ffff;
+  margin-left: auto;
+  margin-right: auto;
+}
+#page3{
   width: 80%;
   height: 500px;
   background-color: #66ffff;
