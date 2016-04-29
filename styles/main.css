@@ -1,20 +1,17 @@
 nav{
   width: 100%;
   text-align: left;
-}
-ul{
-  width: 100%;
-  text-align: right;
+  background-color: grey;
+  height: 80px;
 }
 ul li{
   display: inline;
   list-style: none;
+  float: right;
   margin-right: 20px;
-  padding: 0px;
+  padding-top: 20px;
 }
 ul li a{
-  margin: 0px 10px 20px 10px;
-  background: white;
 
 }
 ul li a:hover{
@@ -29,6 +26,28 @@ body{
   background-color: #aaff80;
   padding-top: 80px;
   padding-bottom: 40px;
+}
+.btn{
+  float: right;
+  font-size: 60px;
+}
+a.btn{
+  font-size: 24px;
+  background: transparent;
+  border: none;
+  border-radius: none;
+
+  cursor: pointer;
+  color: #00f28f;
+
+  padding: 24px 0px;
+  width: 33%;
+
+  transition: background 1s, color 1s;
+}
+a.btn:hover{
+  background: #00f28f;
+  color: #fff;
 }
 
 #page1{
